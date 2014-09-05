@@ -6,10 +6,10 @@ Node.js Google Drive client based on the official API
 ## Usage
 ```
 Examples:
-  coffee ./gdrive.coffee -f backup -u file_1 another2 /path/other*.txt    Upload all matching files to the 'backup' folder
-  coffee ./gdrive.coffee -l 'file'                                        List all files that have 'file' in their names
-  coffee ./gdrive.coffee -d '_1' -d 'other'                               Delete files that have '_1' OR 'other' in their names
-  coffee ./gdrive.coffee -d 'another*file'                                Delete files that have both 'another' AND 'file' in their names.
+  ./gdrive.js -f backup -u file_1 another2 /path/other*.txt    Upload all matching files to the 'backup' folder
+  ./gdrive.js -l 'file'                                        List all files that have 'file' in their names
+  ./gdrive.js -d '_1' -d 'other'                               Delete files that have '_1' OR 'other' in their names
+  ./gdrive.js -d 'another*file'                                Delete files that have both 'another' AND 'file' in their names.
 ```
 
 ```
